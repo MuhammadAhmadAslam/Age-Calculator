@@ -1,0 +1,154 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.f1 {
+    background-color: #e0b86e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading1 {
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.slogan {
+    color: crimson;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.l1 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#inputTodayDate,
+#inputTodayYear,
+#inputTodayMonth {
+    background-color: beige !important;
+    height: 40px;
+    margin-top: 10px;
+}
+
+#inputTodayDate::placeholder,
+#inputTodayYear::placeholder,
+#inputTodayMonth::placeholder {
+    font-size: 20px;
+    color: crimson;
+}
+fieldset{
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100% !important;
+    /* max-width: 400px; */
+    margin-bottom: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.div1,
+.div2,
+.div3 {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.calculate-btn {
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#final {
+    margin-top: 20px;
+}
+.h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.f2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#userbirthdate,#userbirthmonth,#userBirthYear{
+    margin-top: 15px !important;
+    margin-bottom: 16px;
+    height: 40px;
+}
+#userbirthdate{
+    width: 60px;
+}
+#userbirthmonth{
+    width: 120px;
+}
+#userBirthYear{
+    width: 270px;
+}
+#userBirthYear::placeholder{
+    font-size: 12px;
+    font-weight: bolder !important;
+    font-family: cursive;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width:0px) and (max-width:400px) {
+    .container{
+        width: 100%;
+    }
+}

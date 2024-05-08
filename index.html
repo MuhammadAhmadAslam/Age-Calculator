@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <fieldset class="f1">
+            <h1 class="heading1">Age Calculator</h1>
+            <h4 class="slogan">Calculate Birth Date By Age Calcualtor</h4>
+            <fieldset class="f2">
+                <legend class="l1">Today Date Month And Year</legend>
+                <input type="text" placeholder="Current Date" readonly id="inputTodayDate" disabled>
+                <input type="text" placeholder="Current Month" readonly id="inputTodayMonth" disabled>
+                <input type="text" placeholder="Current Year" readonly id="inputTodayYear" disabled>
+            </fieldset>
+
+            <div class="main">
+                <fieldset>
+                    <legend class="l1">Your Birth Date And Year</legend>
+                    <div class="input-container">
+                        <div class="div1">
+                            <h1 class="h1">Your Birth Date</h1>
+                            <select name="" id="userbirthdate">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>
+                        </div>
+                        <div class="div2">
+                            <h1 class="h1">Your Birth Month</h1>
+                            <select name="" id="userbirthmonth">
+                                <option value="0">January</option>
+                                <option value="1">Feburary</option>
+                                <option value="2">March</option>
+                                <option value="3">April</option>
+                                <option value="4">May</option>
+                                <option value="5">June</option>
+                                <option value="6">July</option>
+                                <option value="7">August</option>
+                                <option value="8">September</option>
+                                <option value="9">October</option>
+                                <option value="10">November</option>
+                                <option value="11">December</option>
+                            </select>
+                        </div>
+                        <div class="div3">
+                            <h1 class="h1">Enter Your Birth Year</h1>
+                            <input type="number" placeholder="Enter Your Birth Year For Example 2024" id="userBirthYear">
+                        </div>
+                    </div>
+                    <div class="btn">
+                    <button class="calculate-btn" onclick="calculate()">Calculate</button>
+                </div>
+                    <h4 id="final"></h4>
+                </fieldset>
+            </div>
+        </fieldset>
+    </div>
+  
+
+<script src="calculator.js"></script>
+</body>
+</html>
